@@ -1,0 +1,37 @@
+.headerbar {
+    border-left: 1px solid #eee;
+    background: #fff;
+}
+
+.headerbar::after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+
+/***** 3.1 HEADER LEFT *****/
+
+.menutoggle {
+    float: left;
+    width: 50px;
+    height: 62px;
+    font-size: 22px;
+    cursor: pointer;
+    float: left;
+    color: #dbdddf;
+    border-right: 1px solid #eee;
+    -moz-transition: all 0.2s ease-out 0s;
+    -webkit-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
+}
+
+.menutoggle:hover {
+    color: #1d2939;
+    background-color: #f7f7f7;
+}
+
+.menutoggle .fa,
+.menutoggle .glyphicon {
+    margin: 22px 0 0 15px;
+}

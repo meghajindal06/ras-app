@@ -1,0 +1,42 @@
+<div class="login">
+<div class="container">
+<div class="login-form">
+<div class="login-form-inner">
+<div class="logo"><img src="../../assets/logo.png" width="184" height="48" /></div>
+
+<form class="" method="post" action="#">
+						
+						<div class="form-group">
+						
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><img src="../../assets/LOGIN.png" width="17" height="17" /></span>
+									<input type="text" class="form-control" [(ngModel)]="loginForm.username"  name="username" placeholder="USERNAME"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><img src="../../assets/PASSWORD.png" width="15" height="19" /></span>
+									<input type="text" class="form-control" [(ngModel)]="loginForm.password" name="password" placeholder="PASSWORD"/>
+								</div>
+							</div>
+						</div>
+
+
+					
+
+						
+
+						<div class="form-group " style="margin-bottom:90px;">
+							<a href="javascript:;" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button" (click)="login()">LOGIN</a>
+						</div>
+						
+					</form>
+</div>
+</div>
+
+</div>
